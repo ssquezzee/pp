@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Организация питания</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/eda.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav navbar  navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="./index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./found.html">Поиск по сайту</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Карта сайта</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Версия для слабовидящих</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="section-foto">
+        <div class="container">
+            <img src="./img/image 1.png" class="img-fluid" alt="...">
+        </div>
+    </div>
+
+
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="container-custom">
+            <div class="row">
+                <!-- Левый блок -->
+                <div class="col-md-3 sidebar">
+                    <a href="./index.html"><button class="btn w-100 mb-2">Главная</button></a>
+                    <button class="btn w-100 mb-2" data-bs-toggle="collapse"
+                        data-bs-target="#educationMenu">Образование</button>
+                    <div id="educationMenu" class="collapse ps-3">
+                        <p>Особенности организации образовательного процесса</p>
+                        <a href="./прием_в_школу.html"><p class="text-light">Прием в школу</p></a>
+                        <p>Государственная итоговая аттестация выпускников</p>
+                        <p>Всероссийская олимпиада школьников</p>
+                        <p>Всероссийская проверочная работа (ВПР)</p>
+                    </div>
+                    <button class="btn w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#newsMenu">Воспитательная
+                        работа</button>
+                    <div id="newsMenu" class="collapse ps-3">
+                        <p>Наставничество</p>
+                        <p>Школьный лагерь "Радуга"</p>
+                        <p>Музей "У истоков"</p>
+                        <p>Дополнительное образование</p>
+                        <p>Навигаторы детства</p>
+                        <p>ШСК "Олимп"</p>
+                        <p>Конкурсы</p>
+                        <p>Страничка безопасности</p>
+                        <p>Школьный театр "Колобок"</p>
+                        <p>Трудовая подростковая бригада "СУПЕР_БРИГАДА"</p>
+                        <p>Медиацентр "Вести 4"</p>
+                    </div>
+                    <a href="./index.html#news"><button class="btn w-100 mb-2" data-bs-toggle="collapse"
+                            data-bs-target="#news">Новости</button></a>
+                    <a href="./contact.html"><button class="btn w-100 mb-2" data-bs-toggle="collapse"
+                            data-bs-target="#contact">Контакты</button></a>
+
+                    <a href="./priem.html"><button class="btn w-100 mb-2" data-bs-toggle="collapse"
+                            data-bs-target="#priem">Виртуальная приемная</button></a>
+
+                    <button class="btn w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#parents">Вниманию
+                        родителей</button>
+                    <div id="parents" class="collapse ps-3">
+                        <p>Государственная социальная помощь</p>
+                        <p>Памятки</p>
+                    </div>
+                    <button class="btn w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#info">Информация,
+                        размещенная в
+                        соответствии с требованиями действующего законодательства</button>
+                    <div id="info" class="collapse ps-3">
+                        <a href="./info.html">
+                            <p class="text-light">Информация, размещенная в соотвествии с п.3.3 ст.32 Федерального
+                                закона от 12.01.1996
+                                N7-ФЗ(ред. от
+                                02.0.2013) "О некоммерческих организациях"</p>
+                        </a>
+                        <p>Информационная безопасность</p>
+                        <p>Политика МБОУ СШ №4 в отношении обработки персональных данных</p>
+                        <p>Противодействие коррупции</p>
+                        <p>Антитеррористическая защищенность</p>
+                        <p>Специальная оценка условий труда</p>
+                    </div>
+                    <a href="./psiholog.html"><button class="btn w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#psih">Страница
+                        педагога-психолога</button></a>
+
+                    <button class="btn w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#mon">Аккедитационный
+                        мониторинг</button>
+                    <div id="mon" class="collapse ps-3">
+                        <p>Доступ к информационно-телекоммуникационной среде</p>
+                        <p>ФГИС "Моя школа"</p>
+                    </div>
+
+                    <button class="btn w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#psih">Сведения об
+                        образовательной
+                        организации</button>
+
+                    <button class="btn w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#psih">Организация
+                        питания</button>
+                </div>
+
+                <!-- Правый блок -->
+                <div class="col-md-9 content">
+                    <h2 class="mb-3">Организация питания в образовательной организации</h2>
+                    <img src="./img/image 9.png" class="img-fluid" alt="...">
+
+
+                    <h2 class="mt-4">Уважаемые родители (законные представители)!</h2>
+                    <p>Питание в школьной столовой организовано на условиях контракта с ИП Левина Е.А.</p>
+                    <h1 class="mt-4">Организация питания обучающихся в МБОУ СШ № 4 в 2024-2025 учебном году
+                        осуществляется:</h1>
+                    <li class="mb-5">с 01.09.2020г обучающиеся 1-4 классов получают бесплатный завтрак.</li>
+
+                    <p>В МБОУ СШ № 4 предоставляется дополнительная мера социальной поддержки для обучающихся из семей
+                        участников СВО в соответствии с <a
+                            href="https://r1.nubex.ru/s4427-9a7/f2073_e1/проект%20постановлления%20об%20утверждении%20Порядка-13.03.2024-1_(файл%20отображения).pdf">Постановлением
+                            администрации</a> г. Дзержинска Нижегородской области от 20.03.2024 №1013 <a
+                            href="https://r1.nubex.ru/s4427-9a7/f2074_4c/Порядок%20предоставления%20допмеры%20участникам%20сво-14.03.2024_(файл%20отображения).pdf">"Об
+                            утверждении Порядка предоставления дополнительных мер социальной поддержки участникам
+                            специальной военной операции и членам их семей"</a> и <a
+                            href="https://r1.nubex.ru/s4427-9a7/f2188_76/внесение%20изменений%20в%20постановление%20-05.06.2024%20(1)_(файл%20отображения).pdf">изменениями</a>
+                        к нему. По всем вопросам необходимо обратиться к социальному педагогу Федченко Т.В. (3 этаж,
+                        каб. 320).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="container-custom">
+            <div class="row">
+                <!-- Левый блок -->
+                <div class="col-md-3 mt-5">
+                    <img src="./img/image 5.png" class="img-fluid" alt="...">
+                </div>
+
+                <!-- Правый блок -->
+                <div class="col-md-9 content">
+                    <div class="a">
+                        <h2 class="text-center mb-5">ГРАФИК ПОСЕЩЕНИЯ СТОЛОВОЙ</h2>
+                        <h1>Завтрак </h1>
+                        <p>09.00-09.20: 1-e классы</p>
+                        <p>09.15-09.35: 2-е классы</p>
+                        <p>10.20-10.40: 3,4 классы</p>
+                        <p>11.25-11.45: 5-11 классы</p>
+                        <hr class="border border-primary border-3 opacity-75">
+
+                        <h1>Обед</h1>
+                        <p>12.10-12.30: 1-е классы</p>
+                        <p>12.30-12.50: 2, 5, 6 классы</p>
+                        <p>13.30-14.20: 3-11 классы</p>
+                        <hr class="border border-primary border-3 opacity-75">
+
+                        <h1>Полдник</h1>
+                        <p>14.40: 1-е классы</p>
+                        <p>14.45: 2-е классы</p>
+                        <p>14.50: 3-е классы</p>
+                        <p>14.55: 4-е классы</p>
+                        <hr class="border border-primary border-3 opacity-75">
+
+                        <p><a href="https://drive.google.com/file/d/1TEdbCU6SO4fkAK0fG4cAKEtLuOhtmsc1/view">Примерное
+                                (дифференцированное) двухнедельное цикличное меню для учащихся школ г.Дзержинска на
+                                2024-2025 уч.год. (7-11 лет)</a></p>
+                        <p><a href="https://drive.google.com/file/d/1Jvh1Rw8tWk9iyIIOms-UQiVj1ncliqy0/view">Примерное
+                                (дифференцированное) двухнедельное цикличное меню для учащихся школ г.Дзержинска на
+                                2024-2025 уч.год. (12-18 лет)</a></p>
+                        <p><a href="https://drive.google.com/drive/folders/1fxCFzsyzpSbm41kj7Fr-LyjgJkODlW3s">Меню</a>
+                        </p>
+                        <p><a href="https://drive.google.com/file/d/1cntn1W2x4Zgo-XO8SOTRs8gvCGK979lC/view">Приказ
+                                департамента образования администрации г.Дзержинска от 28.08.2024г. №428-п "Об
+                                организации питания обучающихся в муниципальных общеобразовательных организациях
+                                городского округа г.Дзержинск в 2024-2025 учебном году"</a></p>
+                        <p><a href="https://drive.google.com/file/d/1sH_246FeiPgBIGAxPKgRityjFsMMYlGP/view">Приказ МБОУ
+                                СШ № 4 от 30.08.2024г. №362-п "Об организации питания учащихся в 2024-2025 учебном
+                                году"</a></p>
+                        <p>В соответствии с <a
+                                href="https://drive.google.com/file/d/1XDk_Wuc9VkoIoZDI7PsNd-lCiBr4RvxQ/view">Постановлением
+                                администрации города Дзержинска от 30.10.2023г № 4443 «Об установлении стоимости питания
+                                в день на одного обучающегося в муниципальных общеобразовательных организациях
+                                городского округа город Дзержинск»</a> и в целях обеспечения учащихся полноценным
+                            питанием в соответствии с санитарными нормами с 06.11.2023 г. определена следующая стоимость
+                            питания:</p>
+                        <li class="mb-5">завтрак составляет – 85 рублей, обед – 102 рубля, полдник – 25 рублей.</li>
+                        <p>В нашей школе создана комиссия по контролю за качеством и организацией питания школьников,
+                            которая работает в соответствии с утвержденной Программой деятельности.</p>
+                        <p>Столовая школы рассчитана на 200 посадочных мест. Работает буфет. На средства Администрации
+                            города в 2008 году старое, изношенное оборудование столовой заменено на современное:
+                            холодильники, газовые плиты, духовые шкафы, картофелечистка, мармиты и др. В 2018 году
+                            выполнен декоративный ремонт, заменены столы и стулья. </p>
+                        <p>Питание школьников организовано в соответствии с требованиями санитарных норм и
+                            «Рекомендованным цикличным меню для предприятий школьного питания». В столовой выпускается
+                            разнообразный ассортимент готовых блюд: холодные блюда и закуски, первые и молочные блюда,
+                            гарниры, вторые блюда из мяса, рыбы, птицы, овощей и фруктов, а также выпечка. </p>
+                        <p>Уважаемые родители (законные представители)! Если у Вас есть замечания и предложения по
+                            работе школьной столовой или буфета обращайтесь к социальному педагогу школы Федченко
+                            Татьяне Валентиновне (3 этаж, каб. 320). Мы рассмотрим все Ваши обращения.</p>
+                        <p>Анкета <a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLScvQvcf8f09uzMmvUdCgO84w4k7SmbqSq0PZKFkeHdET6ceAg/viewform">"Питание
+                                ребенка глазами родителей"</a> для заполнения родителями (законными представителями)
+                            обучающихся.</p>
+                        <p><a href="https://drive.google.com/file/d/16RBo9YykdA1AYYDINZm1PTHVpV3vR3hQ/view">Постановление
+                                Главного государственного санитарного врача Российской Федерации от 27.10.2020 № 32 "Об
+                                утверждении санитарно-эпидемиологических правил и норм СанПиН 2.3/2.4.3590-20
+                                «Санитарно-эпидемиологические требования к организации общественного питания
+                                населения».</a></p>
+                        <h1>Телефон горячей линии</h1>
+                        <div class="row mt-5">
+                            <div class="col-md-4">
+                                <img src="./img/image 10.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./img/image 11.png" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+
+                        <h2 class="mt-5">Меню ежедневного горячего питания</h2>
+                        <h1>18.12.2024г.</h1>
+                        <p>/food/2024-12-18-ss.xlsx ( МБОУ СШ № 4 )</p>
+
+                        <h1>17.12.2024г.</h1>
+                        <p>/food/2024-12-17-ss.xlsx ( МБОУ СШ № 4 )</p>
+
+                        <h1>16.12.2024г.</h1>
+                        <p>/food/2024-12-16-ss.xlsx ( МБОУ СШ № 4 )</p>
+
+                        <h2 class="mt-5">Информация о наличии диетического меню в образовательной организации</h2>
+                        <p>На основании приказа департамента образования администрации г. Дзержинска Нижегородской
+                            области от 15.02.2021 №105п «О проведении контрольных мероприятий при организации
+                            бесплатного питания обучающихся, получающих начальное общее образование в муниципальных
+                            общеобразовательных организациях городского округа город Дзержинск» в школе ведется
+                            мониторинг с целью выявления обучающихся, получающих начальное общее образование и
+                            нуждающихся в лечебном и диетическом питании (наличие медицинского заключения с указанием
+                            диетического стола обязательно).</p>
+                        <p>На 02.09.2024 детей, нуждающихся в лечебном и диетическом питании — не выявлено.</p>
+
+                        <h2 class="mt-5">Файлы</h2>
+                        <p><a
+                                href="https://r1.nubex.ru/s4427-9a7/f1361_cb/МБОУ%20СШ%20№%204.%20Об%20утверждении%20Положения%20о%20порядке%20доступа%20в%20организацию%20питания%20%20(родительский%20контроль).pdf">МБОУ
+                                СШ № 4. Об утверждении Положения о порядке доступа в организацию питания (родительский
+                                контроль).pdf </a></p>
+                        <p><a
+                                href="https://r1.nubex.ru/s4427-9a7/f1362_fa/№45-п%20Положение%20об%20организации%20питания%20обучающихся%20(2).pdf">№45-п
+                                Положение об организации питания обучающихся (2).pdf </a></p>
+                        <p><a href="https://r1.nubex.ru/s4427-9a7/f1967_3e/Положение%20о%20бракеражной%20комиссии.pdf">Положение
+                                о бракеражной комиссии.pdf</a></p>
+
+                        <h1 class="mt-5">Перечень юридических лиц и индивидуальных предпринимателей, оказывающих услуги
+                            по организации питания в общеобразовательной организации</h1>
+                        <p>ИП Левина Е.А.</p>
+
+                        <h1 class="mt-5">Перечень юридических лиц и индивидуальных предпринимателей, поставляющих
+                            (реализующих) пищевые продукты и продовольственное сырье в общеобразовательную организацию
+                        </h1>
+                        <p>Нет информации</p>
+
+                        <h1 class="mt-5">Ответы на вопросы родителей по питанию</h1>
+                        <p>Уважаемые родители (законные представители)! Если у Вас есть замечания и предложения по
+                            работе школьной столовой или буфета обращайтесь к социальному педагогу школы Федченко
+                            Татьяне Валентиновне. Мы рассмотрим все Ваши обращения.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-foto">
+        <div class="container">
+            <img src="./img/image 7.png" class="img-fluid" alt="...">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-3 mb-3">
+                    <p>Сайты министерств, ведомств и организаций</p>
+                    <a href="https://edu.gov.ru/">Министерство просвещения Российской Федерации</a><br>
+                    <a href="https://gu.nnov.ru/">Госуслуги (Нижегородская область)</a><br>
+                    <a href="https://minobr.nobl.ru/">Министерство образования и науки Нижегородской области</a><br>
+                    <a href="https://адмдзержинск.рф/">Администрация города Дзержинска</a><br>
+                    <a href="http://www.soido.ru/">Департамент образования администрации города Дзержинска Нижегородской
+                        области</a><br>
+                </div>
+
+                <div class="col-md-6 mt-3 mb-3">
+                    <p>Федеральные образовательные порталы</p>
+                    <a href="https://edu.ru/">Федеральный портал Российское образование</a><br>
+                    <a href="https://web.archive.org/web/20191122092928/http://window.edu.ru/">Единое окно доступа к
+                        информационным ресурсам</a><br>
+                    <a href="https://web.archive.org/web/20191121151247/http://fcior.edu.ru/">Федеральный центр
+                        информационно-образовательных ресурсов</a><br>
+                    <p class="mt-3"> МБОУ СШ № 4 города Дзержинска Нижегородской области<br>
+                        © Конструктор сайтов<a href="https://nubex.ru/?utm_source=copyright">Nubex.ru</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
